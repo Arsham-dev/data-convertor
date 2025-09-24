@@ -32,7 +32,7 @@ pip install beautifulsoup4
 Run the script with **Python 3.7+**:
 
 ```bash
-python tool.py <command> [arguments]
+python main.py <command> [arguments]
 ```
 
 ### Commands
@@ -42,7 +42,7 @@ python tool.py <command> [arguments]
 Reads and formats an XML file.
 
 ```bash
-python tool.py format-xml path/to/file.xml
+python main.py format-xml path/to/file.xml
 ```
 
 #### 2. HTML → JSON
@@ -50,7 +50,7 @@ python tool.py format-xml path/to/file.xml
 Converts an HTML file to JSON by extracting a specific tag.
 
 ```bash
-python tool.py html-to-json path/to/file.html div
+python main.py html-to-json path/to/file.html div
 ```
 
 The output will be saved as `file.json` in the same directory.
@@ -60,7 +60,7 @@ The output will be saved as `file.json` in the same directory.
 Converts a JSON file into XML.
 
 ```bash
-python tool.py json-to-xml path/to/file.json
+python main.py json-to-xml path/to/file.json
 ```
 
 The output will be saved as `file.xml` in the same directory.
@@ -71,13 +71,13 @@ The output will be saved as `file.xml` in the same directory.
 
 ```bash
 # Format an XML file
-python tool.py format-xml sample.xml
+python main.py format-xml sample.xml
 
 # Convert HTML to JSON
-python tool.py html-to-json page.html h1
+python main.py html-to-json page.html h1
 
 # Convert JSON back to XML
-python tool.py json-to-xml data.json
+python main.py json-to-xml data.json
 ```
 
 ---
@@ -86,7 +86,7 @@ python tool.py json-to-xml data.json
 
 ```
 .
-├── tool.py        # CLI script
+├── main.py        # CLI script
 ├── README.txt     # Documentation
 └── examples/      # Example files (optional)
 ```
