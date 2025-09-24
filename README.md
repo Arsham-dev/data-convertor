@@ -90,9 +90,3 @@ python main.py json-to-xml data.json
 ├── README.txt     # Documentation
 └── examples/      # Example files (optional)
 ```
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
